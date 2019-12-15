@@ -151,26 +151,26 @@ async def main(start_port: int, show_timing: bool = False):
                 _,  # schema id
                 credential_definition_id,
             ) = await agent.register_schema_and_creddef(
-                "degree schema", version, ["name", "date", "degree", "age"]
+                "degree schema", version, ["name", "date", "degree", "average"]
             )
 
         # TODO add an additional credential for Student ID
 
-        with log_timer("Generate invitation duration:"):
-            # Generate an invitation
-            log_status(
-                "#5 Create a connection to alice and print out the invite details"
-            )
-            connection = await agent.admin_POST("/connections/create-invitation")
+        # with log_timer("Generate invitation duration:"):
+        #     # Generate an invitation
+        #     log_status(
+        #         "#5 Create a connection to alice and print out the invite details"
+        #     )
+        #     connection = await agent.admin_POST("/connections/create-invitation")
 
-        agent.connection_id = connection["connection_id"]
-        log_json(connection, label="Invitation response:")
-        log_msg("*****************")
-        log_msg(json.dumps(connection["invitation"]), label="Invitation:", color=None)
-        log_msg("*****************")
+        # agent.connection_id = connection["connection_id"]
+        # log_json(connection, label="Invitation response:")
+        # log_msg("*****************")
+        # log_msg(json.dumps(connection["invitation"]), label="Invitation:", color=None)
+        # log_msg("*****************")
 
-        log_msg("Waiting for connection...")
-        await agent.detect_connection()
+        # log_msg("Waiting for connection...")
+        # await agent.detect_connection()
 
         async for option in prompt_loop(
             "(1) Issue Credential, (2) Send Proof Request, "
