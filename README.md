@@ -1,5 +1,5 @@
 # Forked by edbkei for mastership on SSI - University of Campinas.
--
+Also, take a look on file README.FIRST.
 
 
 # Original Readme: Hyperledger Aries Cloud Agent - Python  <!-- omit in toc -->
