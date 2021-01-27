@@ -1,4 +1,4 @@
-# Forked by edbkei for mastership on SSI - University of Campinas.
+# Forked by edbkei for mastership on SSI - University of Campinas (UNICAMP/BRAZIL)
 Also, take a look on file README.FIRST.
 
 
