@@ -1,2 +1,4 @@
 This Project is based on https://kctheservant.medium.com/demonstration-of-hyperledger-aries-cloud-agent-6e476a5426b0.
 The purpose is to serve as guidence for basic environment involving agents Faber, ACME, Alice, Bob.
+The main folder for environment configuration is Project.
+
