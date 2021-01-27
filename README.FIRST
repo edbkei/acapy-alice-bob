@@ -29,4 +29,5 @@ Environment:
 - Windows10 had to be updated to Windows 10 PRO
 - Install Linux for Windows WSL2.
 
-* Virtual Box (VB) does not raise up Ledger nodes. 
+* Installation of von-network on Ubuntu 18.04 or 20.04 does not raise up Ledger pools. 
+  Integration issue has been detected and reported at https://github.com/bcgov/von-network/issues/131
