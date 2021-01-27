@@ -1,6 +1,10 @@
-This Project is based on https://kctheservant.medium.com/demonstration-of-hyperledger-aries-cloud-agent-6e476a5426b0.
+This Project is based on [1] https://kctheservant.medium.com/demonstration-of-hyperledger-aries-cloud-agent-6e476a5426b0.
 The purpose is to serve as guidence for basic environment involving agents Faber, ACME, Alice, Bob.
 The main folder for environment configuration is Project.
+
+Installation could be observed Reference [1].
+
+The instruction below is similar to [1], the difference is the degree of automation.
 
 To startup von-network:
 Open Windows terminal
