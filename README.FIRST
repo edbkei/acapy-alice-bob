@@ -2,3 +2,27 @@ This Project is based on https://kctheservant.medium.com/demonstration-of-hyperl
 The purpose is to serve as guidence for basic environment involving agents Faber, ACME, Alice, Bob.
 The main folder for environment configuration is Project.
 
+To startup von-network:
+Open Windows terminal
+python start.py
+
+* This will start up web server at localhost:9000, and ports 9701-9705.
+
+To startup agents Faber, ACME, Alice, and Bob. 
+Open Windows terminal
+start_actor.bat
+
+* This will start agents on ports 8201-8205.
+
+To endup environment:
+Open Windows terminal
+python stop.py
+
+Check if ports are still opened:
+sudo netstat -antp
+
+Environment:
+- Windows10 had to be updated to Windows 10 PRO
+- Install Linux for Windows WSL2.
+
+* Virtual Box (VB) does not raise up Ledger nodes. 
