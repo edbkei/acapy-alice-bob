@@ -25,6 +25,13 @@ python stop.py
 Check if ports are still opened:
 sudo netstat -antp
 
+It should be something similar, like:
+ubu20w@DESKTOP-CT0HBV1:~$ sudo netstat -antp
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      211/sshd: /usr/sbin
+tcp6       0      0 :::22                   :::*                    LISTEN      211/sshd: /usr/sbin
+
 Environment:
 - Windows10 had to be updated to Windows 10 PRO
 - Install Linux for Windows WSL2.
