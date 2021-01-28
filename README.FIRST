@@ -28,6 +28,7 @@ sudo netstat -antp
 Environment:
 - Windows10 had to be updated to Windows 10 PRO
 - Install Linux for Windows WSL2.
+- Add sudo service ssh start and sudo service docker start at ~./bashrc to start up the service ssh and docker in WSL Linux.
 
 * Installation of von-network on Ubuntu 18.04 or 20.04 does not raise up Ledger pools, if Virtual Box is used on Windows 10.
   Not verified on Windows 10 PRO.
